@@ -1,0 +1,22 @@
+- name: Create an instance
+  hosts: localhost
+  gather_facts: no
+  vars:
+      zone: "us-central1-a"
+      region: "us-central1"
+      resource_name: sql-new
+  tasks:
+    - name : create a instance
+      google.cloud.gcp_sql_instance:
+        name: "{{resource_name}}"
+        settings:
+          ip_configuration:
+            authorized_networks:
+            - name: google dns server
+              value: 8.8.8.8/32
+          tier: db-n1-standard-1
+        region: us-central1
+        project: tarkshyas-1635698231548
+        auth_kind: serviceaccount
+        service_account_file: "/home/tsgcp_user14/sql_auth.json"
+        state: present
