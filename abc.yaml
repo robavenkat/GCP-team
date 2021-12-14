@@ -1,0 +1,18 @@
+- name: create cloud function
+  hosts:localhost
+  gather_facts: no
+
+  tasks:
+
+    - name: create a cloud function
+      google.cloud.gcp_cloudfunctions_cloud_function:
+        name: test_object
+        location: us-central1
+        entry_point: hello_world
+        runtime: python 3.7
+        source_archive_url: gs://tempbucket12/hello_world.zip
+        trigger_http: 'true'
+        project: tarkshyas-1635697937783
+        auth_kind: serviceaccount
+        service_account_file: "/home/tsgcp_trainer/ansi_sa.json"
+        state: present
