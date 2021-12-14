@@ -12,5 +12,8 @@ https://github.com/amunategui/rapid-prototyping-app-engine-yelp
 
 <br />the above stpe outputs a hyoerlink for the site
 
+<br />use standard_app.yaml for standard and 
+<br />use flexible_app.yaml for flexible environment
+
 
 <br /> final output is uploaded in the screenshots folder <br /> it shows the versions of the app engine
