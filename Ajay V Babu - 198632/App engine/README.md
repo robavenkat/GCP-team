@@ -1,5 +1,16 @@
-# rapid-prototyping-app-engine-yelp
+Host a website given below using App engine Standard and flexible environment.<br />
+https://github.com/amunategui/rapid-prototyping-app-engine-yelp
+<br />Steps
+<br />1. open cloud editor and type commands below
+<br />git clone https://github.com/amunategui/rapid-prototyping-app-engine-yelp
+<br />cd rapid-prototyping-app-engine-yelp
+<br />Deploying the Web Application
+<br />pip install -t lib -r requirements.txt
+<br />gcloud init
+<br />gcloud app deploy
+<br />gcloud app browse
 
-Easily Extend your Python ML Models into Interactive Web Applications - Let's build a web application to map out trips and plot specific businesses along the route every fifty miles or so using Yelp and Google App Engine.  
+<br />the above stpe outputs a hyoerlink for the site
 
-Full code for walkthrough blog entry: http://amunategui.github.io/rapid-prototyping-app-engine-yelp
+
+<br /> final output is uploaded in the screenshots folder <br /> it shows the versions of the app engine
