@@ -1,0 +1,9 @@
+Github Links used:
+ 
+https://github.com/learning-zone/website-templates/tree/master/above-educational-bootstrap-responsive-template
+
+https://github.com/learning-zone/website-templates/tree/master/add-life-health-fitness-free-bootstrap-html5-template
+
+https://github.com/GoogleCloudPlatform/python-docs-samples/tree/main/appengine/flexible/django_cloudsql
+
+https://github.com/GoogleCloudPlatform/python-docs-samples/tree/main/appengine/standard/cloudsql

@@ -1,0 +1,4 @@
+stud_id	dept_id	subject
+11	111	science
+12	112	commerce
+13	113	commerce

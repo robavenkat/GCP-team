@@ -1,0 +1,4 @@
+stud_id	name
+11	nandhu
+12	paaru
+13	renju
