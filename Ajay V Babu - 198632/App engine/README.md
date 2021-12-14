@@ -10,7 +10,7 @@ https://github.com/amunategui/rapid-prototyping-app-engine-yelp
 <br />gcloud app deploy
 <br />gcloud app browse
 
-<br />the above stpe outputs a hyoerlink for the site
+<br />the above stpe outputs a hyperlink for the site
 
 <br />use standard_app.yaml for standard and 
 <br />use flexible_app.yaml for flexible environment
